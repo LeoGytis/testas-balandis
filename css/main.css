@@ -41,9 +41,14 @@ h1 {
     padding: 20px;
     color: blue;
     background-color: #E7E9FE;
+    border: 0;
     border-radius: 10px;
 }
-
+.input::placeholder {
+    color: blue;
+    font-size: 18px;
+    font-weight: 600;
+}
 .address {
     width: 660px;
     background-color: #C7CDFD;

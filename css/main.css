@@ -68,6 +68,12 @@ h1 {
     padding: 14px 50px;
     border-radius: 25px;
     margin-left: 260px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: darkblue;
+    box-shadow: 0 0 5px #000
 }
 
 h4 {
@@ -79,6 +85,5 @@ h4 {
 .form {
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
 }
 
